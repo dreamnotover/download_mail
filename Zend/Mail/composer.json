@@ -1,0 +1,30 @@
+{
+    "name": "opsone/zend-mail",
+    "description": "provides generalized functionality to compose and send both text and MIME-compliant multipart e-mail messages",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2",
+        "mail"
+    ],
+    "autoload": {
+        "psr-0": {
+            "Zend\\Mail\\": ""
+        }
+    },
+    "target-dir": "Zend/Mail",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zend-loader": "self.version",
+        "zendframework/zend-mime": "self.version",
+        "zendframework/zend-stdlib": "self.version"
+    },
+    "suggest": {
+        "zendframework/zend-validator": "Zend\\Validator component",
+        "zendframework/zend-servicemanager": "Zend\\ServiceManager component"
+    },
+    "version": "2.0.3",
+    "dist": {
+        "url": "http://github.com/opsone/zend-mail/archive/2.0.4.zip",
+        "type": "zip"
+    }
+}
